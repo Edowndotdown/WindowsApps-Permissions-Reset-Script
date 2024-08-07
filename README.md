@@ -1,30 +1,24 @@
-# WindowsAppsUnfukker - [Download here](https://github.com/AgentRev/WindowsAppsUnfukker/archive/refs/heads/main.zip)
+# WindowsApps Permissions Reset Script (Fork of https://github.com/AgentRev/WindowsAppsUnfukker)
 
 ![The parameter is incorrect](https://i.imgur.com/ygnGtJE.png)
 
-Are you getting "The parameter is incorrect" errors when trying to run apps? <br>
-Are Microsoft Store, Xbox, and other apps refusing to open or install? <br>
-Are you getting access denied errors with a bunch of apps? <br>
-Then boy do I have a solution for you! <br/>
+This script resets UWP (Universal Windows Platform Apps). Some examples of UWP apps are <br>
+Microsoft Store, Xbox, Windows Player, and many more. This script fixes MOST errors with UWP apps by reseting permissions PROPERLY. Some known errors fixed with this script are "The parameter is incorrect", "access denied", and "This app wont start". <br>
 
-Use this script to whip WindowsApps into submission and finally get rid of these goddamn issues!
 
-Seriously Microsoft, why the fuck is this crap so extremely convoluted?
-I bet my ass some NTFS nerd creamed his pants at your office while building your steaming pile of permissions garbage.
-
-Jesus Fucking Christ.
 
 ---
-### How to start the motherfukker
+### Installation
 
-1. Download the script [here](https://github.com/AgentRev/WindowsAppsUnfukker/archive/refs/heads/main.zip)
-2. Download [PAExec](https://www.poweradmin.com/paexec/)
-3. Open CMD as admin (the real CMD, not PowerShell), then access its folder: `cd PAEXEC_PATH_HERE`
-4. Adjust `FULL_PATH_HERE` and execute the script:
-   ```
-   paexec -s -i cmd /C powershell -ExecutionPolicy Bypass -File "FULL_PATH_HERE\WindowsAppsUnfukker.ps1" "%LocalAppData%" ^|^| pause
-   ```
-   (If it says exit code -196608, it means the absolute path is invalid, double-check the `-File` path you entered)
+1. Go to releases and download the LATEST version of Setup.bat
+2. Run the Setup.bat file
+3. Click Yes on the UAC prompt to elevate Windows Command Prompt
+4. Press enter when finished to close window
+5. Delete installed files from setup.bat from downloads folder
 
----
-Note: If your objective is to modify files inside an app folder, I don't provide any assistance for that use-case, but there is an extra step required after running the script. You have to rename the app folder by adding `-old` at the end, make a copy of the folder, and rename the copy back to the original name. This will allow you to modify the files inside if they are not [encrypted](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/cipher). I don't why "Full control" permissions alone aren't sufficient, probably just [Microsoft eating a bag of dicks](https://www.youtube.com/watch?v=Gksc2aR2KCk) as usual. Some app folders are actually read-only Xbox Virtual Disk (XVD) images mounted at the driver level, so don't bother touching those.
+### Update
+
+1. Delete all but Setup.bat
+2. Run Setup.bat
+   
+Note: If your objective is to modify files inside an app folder, just create a backup. Copy and paste Windows apps and rename to "Windowsapps -old".
