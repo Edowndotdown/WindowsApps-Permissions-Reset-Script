@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/c43065a4-df19-4d27-9332-30b87aebe3ad)# WindowsApps Permissions Reset Script (Fork of https://github.com/AgentRev/WindowsAppsUnfukker)
+# WindowsApps Permissions Reset Script (Fork of https://github.com/AgentRev/WindowsAppsUnfukker)
 
 ![The parameter is incorrect](https://i.imgur.com/ygnGtJE.png)
 
@@ -20,7 +20,7 @@ Microsoft Store, Xbox, Windows Player, and many more. This script fixes MOST err
 
    
 6. Press enter when finished to close window
-   ![image](https://github.com/user-attachments/assets/6ad92ab2-3af9-48ad-a56e-e6037f6819a1)
+
 
    
 ### Update
