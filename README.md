@@ -17,12 +17,11 @@ Microsoft Store, Xbox, Windows Player, and many more. This script fixes MOST err
    ![image](https://github.com/user-attachments/assets/0796f807-de18-485e-96fb-271101f3b53b)
 
 4. Click Yes on the UAC prompt to elevate Windows Command Prompt
-   ![image](https://github.com/user-attachments/assets/a9a9c4c8-ccc3-4236-97cd-9e84dc4224fb)
-
+   
    
 6. Press enter when finished to close window
 
-
+    ![image](https://github.com/user-attachments/assets/a9a9c4c8-ccc3-4236-97cd-9e84dc4224fb)
    
 ### Update
 
